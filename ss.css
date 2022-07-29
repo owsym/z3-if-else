@@ -1,0 +1,56 @@
+*{
+padding: 0;
+margin: 0; 
+}
+.bc{
+ background-image: linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15)), url(bc1.jpg);  
+ background-position: center;
+ background-attachment: fixed;
+ background-size: cover;
+ text-align: center;
+color:yellow;
+font-size: 25px; 
+}
+input{
+    padding-top: 10px ;
+    width: 350px;
+    font-size: 35px;
+    margin: 10px 62px;
+    margin-top: 20px;
+    border-radius: 25px;
+    background: transparent;
+    border-width: 3px;
+    text-align: center;
+    color: white;
+    font-family: Calibri;
+    
+}
+
+button{
+    padding-top: 5px ;
+    width: 200px;
+    font-size: 30px;
+    margin: 10px 90px;
+    border-radius: 25px;
+    border-width: 4px;
+    border-color: brown;
+    background: transparent;
+    color: white;
+    font-family: Calibri;
+    scroll-snap-type: none;
+}
+.box{
+    background-color: rgba(0,0,0,0.5);
+    width: 480px;
+    height: 650px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 2px 2px 15px rgba (0,0,0,0.3);
+    position: relative;
+    margin: 6% auto;
+    color: white;
+
+    padding: 5px;
+   
+ }
